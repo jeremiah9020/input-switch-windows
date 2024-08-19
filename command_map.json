@@ -1,0 +1,65 @@
+{
+    "hotkey": {
+        "-h": "This command contains subcommands for setting up hotkeys",
+        "usbc": {
+            "-h": "Sets the hotkey for switching input devices to USB-C",
+            "flags": [
+                {
+                    "name": "--reset",
+                    "alias": "-r",
+                    "description": "Resets the hotkey for switching to USB-C"
+                },
+                {
+                    "name": "--listen",
+                    "alias": "-l",
+                    "description": "Listens for a key combination, sets as hotkey for switching to USB-C"
+                }
+            ]
+        },
+        "dp": {
+            "-h": "Sets the hotkey for switching input devices to Display Port",
+            "flags": [
+                {
+                    "name": "--reset",
+                    "alias": "-r",
+                    "description": "Resets the hotkey for switching to Display Port"
+                },
+                {
+                    "name": "--listen",
+                    "alias": "-l",
+                    "description": "Listens for a key combination, sets as hotkey for switching to Display Port"
+                }
+            ]
+        },
+        "hdmi1": {
+            "-h": "Sets the hotkey for switching input devices to HDMI 1",
+            "flags": [
+                {
+                    "name": "--reset",
+                    "alias": "-r",
+                    "description": "Resets the hotkey for switching to HDMI 1"
+                },
+                {
+                    "name": "--listen",
+                    "alias": "-l",
+                    "description": "Listens for a key combination, sets as hotkey for switching to HDMI 1"
+                }
+            ]
+        },
+        "hdmi2": {
+            "-h": "Sets the hotkey for switching input devices to HDMI 2",
+            "flags": [
+                {
+                    "name": "--reset",
+                    "alias": "-r",
+                    "description": "Resets the hotkey for switching to HDMI 2"
+                },
+                {
+                    "name": "--listen",
+                    "alias": "-l",
+                    "description": "Listens for a key combination, sets as hotkey for switching to HDMI 2"
+                }
+            ]
+        }
+    }
+}
