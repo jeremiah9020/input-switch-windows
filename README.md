@@ -1,2 +1,2 @@
-# input-switch-windows
-Used to switch display inputs using DDC
+# ddccli
+Used to switch display inputs using DDC on windows

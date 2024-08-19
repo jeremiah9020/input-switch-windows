@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "ddccli",
+  "name": "@jeremiah9020/ddccli",
   "version": "1.0.0",
   "description": "Used to switch display inputs using DDC",
   "main": "index.js",
